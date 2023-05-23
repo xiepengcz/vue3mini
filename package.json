@@ -1,0 +1,23 @@
+{
+  "name": "vue-next-mini",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^22.0.1",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-typescript": "^8.3.4",
+    "rollup": "^3.23.0",
+    "rollup-plugin-sourcemaps": "^0.6.3",
+    "tslib": "^2.4.0",
+    "typescript": "^5.0.4"
+  }
+}
